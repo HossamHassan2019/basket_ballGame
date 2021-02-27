@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+.main-section {
+  /* background-image: url("basketball-background.jpg");
+  background-size: cover;
+  background-position: bottom 90%; */
+  margin: 1.5rem auto;
+  width: 500px;
+  height: 500px;
+  border: 5px solid black;
+  position: relative;
+}
+
+.ball {
+  /* background: url("basketball.jpg") center/cover no-repeat border-box, #ff1b68; */
+  position: absolute;
+  background-image: url("download.jpeg");
+  background-size: cover;
+  background-color: "white";
+  /* background-position: bottom 100%;
+  /* background-color: red;
+  -webkit-mask-image: url("icons8-basketball-48.png");
+  mask-image: url("icons8-basketball-48.png"); */
+  left: 0;
+  bottom: 0;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  /* background-color: green; */
+  /* border-color: green; */
+  padding: 0;
+  margin: 0;
+}
+
+.basket {
+  background: url("basket.jpeg") center/cover no-repeat border-box, #ff1b68;
+  /* background-repeat: no-repeat, repeat;
+  background-image: url("il_570xN.1545969422_i4mh.jpg"),
+    url("basketball-background.jpg");
+  background-blend-mode: lighten; */
+  width: 6rem;
+  height: 6rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  opacity: 0.9;
+  /* z-index: 2; */
+}
+
+button:focus {
+  outline: none;
+}
+.score-section {
+  margin: 1.5rem auto;
+  height: 6vh;
+  font-weight: bolder;
+  background-color: rgb(172, 207, 137);
+  display: flex;
+  align-items: center;
+}
